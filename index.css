@@ -1,0 +1,25 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+:root{
+    --color-primary:#ff854d;
+    --color-dark: black ;
+    --color-white:#fff;
+    --color-light:rgba(255,255,255,0.6);
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-ms: 90%;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Gilroy-Medium', sans-serif;
+    background: var(--color-white);
+    color: var(--color-dark);
+   
+}
+section{
+    margin-top: 80px;
+    height: 50vh;
+    
+
+}

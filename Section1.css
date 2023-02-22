@@ -1,0 +1,16 @@
+.section1-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "image-container text-container";
+}
+img{
+    height: 500px;
+    width: 500px;
+    margin-left: 100px;
+}
+.image-container{
+    grid-area: image-container;
+}
+.text-container{
+    grid-area: text-container;
+} 

@@ -1,0 +1,9 @@
+.section2-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "image2-container image2-container";
+}
+img{
+    height: 300px;
+    width: 300px;
+}
